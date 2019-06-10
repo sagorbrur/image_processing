@@ -5,8 +5,8 @@
 import glob
 from PIL import Image
 
-
-img_path = glob.glob('GT/*.bmp')
+# I have bunch of bmp images in GT folder and I want to convert it into png
+img_path = glob.glob('GT/*.bmp') 
 
 print(len(img_path))
 
