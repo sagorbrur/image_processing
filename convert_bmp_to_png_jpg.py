@@ -16,7 +16,7 @@ for img in img_path:
     im = Image.open(img)
     w,h = im.size
     new_im = im.resize((w,h))
-    new_im.save('GT_PNG/{}_gt.png'.format(cnt), 'png')
+    new_im.save('GT_PNG/{}_gt.png'.format(cnt), 'png') # for JPEG just replace png to jpg
     cnt+=1
 
 print('done')
